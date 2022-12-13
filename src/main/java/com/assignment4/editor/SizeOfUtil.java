@@ -2,6 +2,9 @@ package com.assignment4.editor;
 
 import java.util.Arrays;
 
+/**
+ * Provided reference class to calculate the size of object
+ */
 public abstract class SizeOfUtil {
     public double averageBytes() {
         int runs = runs();
@@ -12,12 +15,8 @@ public abstract class SizeOfUtil {
             Thread.yield();
             long used1 = memoryUsed(runtime);
             int number = create();
-//            System.out.println("number - "+ number);
             long used2 = memoryUsed(runtime);
-//            System.out.println("used 1 " + used1);
-//            System.out.println("used 2 " + used1);
             double avgSize = (double) (used2 - used1) / number;
-//            System.out.println("size at iteration "+ used1 + " " + used2);
             if (avgSize < 0) {
                 // GC was performed.
                 i--;

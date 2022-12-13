@@ -15,7 +15,6 @@ public class FontFactory {
 
     /**
      * Returns the singleton instance of the FontFactory.
-     *
      * @return the singleton instance of the FontFactory
      */
     public static FontFactory getFontFactory() {
@@ -25,11 +24,7 @@ public class FontFactory {
     }
 
     /**
-     * Returns a Font object with the specified font name, size, and style.
-     * If a Font object with the same font name, size, and style already
-     * exists, the existing Font object is returned. Otherwise, a new
-     * Font object is created and returned.
-     *
+     * Returns a Font object if already exists. Otherwise, a new Font object is created and returned.
      * @param fontName the font name
      * @param fontSize the font size
      * @param fontStyle the font style

@@ -34,6 +34,6 @@ public class RunArray {
                 return fonts.get(i);
             }
         }
-        throw new FontNotFound("Font not found at given index");
+        throw new FontNotFound("Font does not exist at index");
     }
 }

@@ -53,7 +53,7 @@ class RunArrayTest {
         Exception exception = assertThrows(FontNotFound.class, () -> {
             runArray.getFont(1000);
         });
-        String expectedMessage = "Font not found at given index";
+        String expectedMessage = "Font does not exist at index";
         String actualMessage = exception.getMessage();
 
         Assertions.assertTrue(actualMessage.contains(expectedMessage));
