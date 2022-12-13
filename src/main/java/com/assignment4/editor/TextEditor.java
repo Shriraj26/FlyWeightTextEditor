@@ -1,4 +1,4 @@
-package com.assignment4.texteditor;
+package com.assignment4.editor;
 
 public class TextEditor {
 

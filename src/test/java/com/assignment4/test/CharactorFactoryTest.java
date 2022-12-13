@@ -1,5 +1,7 @@
-package com.assignment4.patterns;
+package com.assignment4.test;
 
+import com.assignment4.patterns.CharactorFactory;
+import com.assignment4.patterns.CustomCharacter;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

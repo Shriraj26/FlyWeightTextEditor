@@ -1,7 +1,7 @@
 package com.assignment4.test;
 
 import com.assignment4.patterns.FontFactory;
-import com.assignment4.patterns.FontNotFound;
+import com.assignment4.exceptions.FontNotFound;
 import com.assignment4.patterns.RunArray;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

@@ -1,4 +1,6 @@
 package com.assignment4.patterns;
+import com.assignment4.exceptions.FontNotFound;
+
 import java.awt.Font;
 import java.util.*;
 

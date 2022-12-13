@@ -1,4 +1,4 @@
-package com.assignment4.patterns;
+package com.assignment4.exceptions;
 
 public class FontNotFound extends Exception{
 

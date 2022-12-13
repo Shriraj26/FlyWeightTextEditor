@@ -1,13 +1,8 @@
-package com.assignment4.texteditor;
+package com.assignment4.test;
 
+import com.assignment4.editor.SizeOfUtil;
 import com.assignment4.patterns.CharactorFactory;
 import com.assignment4.patterns.CustomCharacter;
-import com.assignment4.patterns.FontFactory;
-import com.assignment4.patterns.RunArray;
-
-import java.awt.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Test {
 
@@ -16,13 +11,13 @@ public class Test {
 //
 //    public static void calSizeOfStringWithFont(){
 //        System.out.printf("charlist string with font has - %.1f bytes%n", new SizeOfUtil(){
-//            List<CharacterContainingFont> charList;
+//            List<CharacterWithFont> charList;
 //            @Override
 //            protected int create() {
-//                charList = new ArrayList<CharacterContainingFont>();
+//                charList = new ArrayList<CharacterWithFont>();
 //                for(int i=0; i< textArray.length; i++){
 //                    Font f = new Font("TIMES NEW ROMAN", Font.BOLD, 12);
-//                    CharacterContainingFont testChar = new CharacterContainingFont(f,textArray[i]);
+//                    CharacterWithFont testChar = new CharacterWithFont(f,textArray[i]);
 //                    charList.add(testChar);
 //                }
 //                return 1;
@@ -120,7 +115,7 @@ public class Test {
 
 
     public static void main(String[] args) {
-
+        String text = "";
         System.out.printf("single char without font - %.1f bytes%n", new SizeOfUtil(){
 
             @Override
