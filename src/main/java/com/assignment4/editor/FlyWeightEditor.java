@@ -7,10 +7,6 @@ import java.util.List;
 /**
  * FlyWeightEditor class is a type of editor which implements the Editor interface.
  * It uses the Flyweight pattern to reduce memory usage by storing only one instance of each character.
- *
- * @author  [insert name here]
- * @version 1.0
- * @since   [insert date here]
  */
 public class FlyWeightEditor implements Editor {
 

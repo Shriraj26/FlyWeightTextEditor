@@ -8,18 +8,15 @@ import org.junit.jupiter.api.Test;
 class CharacterFactoryTest {
 
     CharacterFactory characterFactory;
-
     @BeforeEach
     void setup(){
         characterFactory = CharacterFactory.getCharacterMap();
     }
-
     @Test
     void getCharacterMap() {
         CharacterFactory secondCharacterFactory = CharacterFactory.getCharacterMap();
         Assertions.assertEquals(characterFactory, secondCharacterFactory);
     }
-
     @Test
     void getCustomCharacter() {
         Character expectedCharacter = characterFactory.getCustomCharacter('A');

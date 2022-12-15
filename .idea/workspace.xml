@@ -4,25 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a705ddd-b768-4c5b-bf5b-8a74f5cb6f74" name="Changes" comment="sammple">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment4/editor/Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment4/patterns/CustomString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/assignment4/test/EditorTest.java" afterDir="false" />
+    <list default="true" id="4a705ddd-b768-4c5b-bf5b-8a74f5cb6f74" name="Changes" comment="Refactored code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment4/editor/CharacterWithFont.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment4/editor/CharacterWithFont.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment4/editor/FlyweightEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment4/editor/FlyWeightEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment4/editor/NormalEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment4/editor/NormalEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment4/editor/SizeOfUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment4/editor/SizeOfUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment4/editor/TextEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment4/editor/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment4/editor/Editor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment4/editor/FlyWeightEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment4/editor/FlyWeightEditor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment4/exceptions/FontNotFound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment4/exceptions/FontNotFound.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment4/patterns/CharactorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment4/patterns/CharacterFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment4/patterns/CustomCharacter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment4/patterns/FontFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment4/patterns/FontFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment4/patterns/CharacterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment4/patterns/CharacterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment4/patterns/CustomString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment4/patterns/CustomString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/assignment4/patterns/RunArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignment4/patterns/RunArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/assignment4/test/CharactorFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/assignment4/test/CharacterFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/assignment4/test/RunArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/assignment4/test/RunArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/assignment4/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/assignment4/test/CharacterFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/assignment4/test/CharacterFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/assignment4/test/EditorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/assignment4/test/EditorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/assignment4/test/FontFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/assignment4/test/FontFactoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +74,16 @@
       <recent name="com.assignment4.test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Flyweight (1)">
+  <component name="RunManager" selected="JUnit.All in Flyweight (2)">
     <configuration name="All in Flyweight (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Flyweight" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Flyweight (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Flyweight" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -94,23 +95,6 @@
       <module name="Flyweight" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EditorTest.testObjectSizeCalculation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Flyweight" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.assignment4.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.assignment4.test" />
-      <option name="MAIN_CLASS_NAME" value="com.assignment4.test.EditorTest" />
-      <option name="METHOD_NAME" value="testObjectSizeCalculation" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-XX:-UseTLAB" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,17 +135,17 @@
     <list>
       <item itemvalue="JUnit.All in Flyweight" />
       <item itemvalue="JUnit.RunArrayTest.getFontAtIndex" />
-      <item itemvalue="JUnit.EditorTest.testObjectSizeCalculation" />
+      <item itemvalue="JUnit.All in Flyweight (2)" />
       <item itemvalue="JUnit.EditorTest.testObjectSizeCalculation1" />
       <item itemvalue="JUnit.All in Flyweight (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Flyweight (2)" />
         <item itemvalue="JUnit.All in Flyweight (1)" />
         <item itemvalue="JUnit.RunArrayTest.getFontAtIndex" />
         <item itemvalue="JUnit.All in Flyweight" />
         <item itemvalue="JUnit.EditorTest.testObjectSizeCalculation1" />
-        <item itemvalue="JUnit.EditorTest.testObjectSizeCalculation" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670630403718</updated>
-      <workItem from="1670630405389" duration="32832000" />
+      <workItem from="1670630405389" duration="36235000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1670898523793</created>
@@ -189,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670920302633</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactored code">
+      <created>1670925109645</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670925109645</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +200,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes" />
     <MESSAGE value="sammple" />
-    <option name="LAST_COMMIT_MESSAGE" value="sammple" />
+    <MESSAGE value="Refactored code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored code" />
   </component>
 </project>

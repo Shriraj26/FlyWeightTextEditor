@@ -5,13 +5,10 @@ import com.assignment4.editor.SizeOfUtil;
 import com.assignment4.patterns.CustomString;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
-
 public class EditorTest {
-
     @Test
     public void testObjectSizeCalculation(){
 
@@ -26,9 +23,8 @@ public class EditorTest {
        5500 Campanile Drive, San Diego, CA 92182-7700 USA.
        OpenContent (http://www.opencontent.org/opl.shtml) license
        defines the copyright on this document.""";
-        list.add(new CustomString(text1, new Font("TIMES NEW ROMAN",Font.ITALIC,10)));
-        list.add(new CustomString(text2, new Font("ARIAL",Font.BOLD,12)));
-
+        list.add(new CustomString(text1, new Font("COMIC SANS MS",Font.BOLD,12)));
+        list.add(new CustomString(text2, new Font("TIMES NEW ROMAN",Font.PLAIN,14)));
 
         double actualSize =  new SizeOfUtil() {
             @Override
@@ -39,7 +35,7 @@ public class EditorTest {
             }
         }.averageBytes();
 
-//      Construction of string having 356 characters with 54 unique characters in it
+//      We construct a string having 356 characters with 54 unique characters in it
         StringBuilder sb = new StringBuilder();
         int count = 0;
         for(int i = 0; i < 356; i++){

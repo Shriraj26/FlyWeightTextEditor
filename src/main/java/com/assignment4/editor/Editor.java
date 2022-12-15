@@ -8,7 +8,6 @@ import java.util.List;
  * This interface provides methods for writing text.
  */
 public interface Editor {
-
     void write(List<CustomString> text);
     void write(CustomString text);
 
